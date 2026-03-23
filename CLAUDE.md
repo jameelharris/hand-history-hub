@@ -12,7 +12,7 @@ MVP-1 is strictly limited to **JSON object validation** within BigQuery using db
 |---|---|
 | **Source** | Read JSON objects from `hand_history.raw_ai_hands` in BigQuery |
 | **Validation** | dbt logic to assert all required fields are present (per the ERD) |
-| **Metadata Lookups** | dbt cross-references lookup tables to validate JSON metadata values |
+| **Metadata Lookups** | dbt cross-references both lookup tables and required fields from standard tables to validate JSON metadata values |
 | **Cleanse** | Logic to identify and delete invalid objects from the raw table |
 
 **Do NOT scaffold BigQuery tables from the ERD.** Table creation is out of scope for MVP-1; the focus is validating raw JSON before any structured tables exist.

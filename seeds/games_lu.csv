@@ -1,0 +1,12 @@
+game_variant_id,game_variant_name,game_variant_format,is_limit,max_seats,min_seats
+1,Texas Hold'em,flop,false,9,2
+2,Pot-Limit Omaha,flop,false,9,2
+3,Omaha Hi-Lo,flop,false,9,2
+4,Short Deck Hold'em,flop,false,9,2
+5,No-Limit Hold'em 6-Max,flop,false,6,2
+6,Seven Card Stud,stud,true,8,2
+7,Seven Card Stud Hi-Lo,stud,true,8,2
+8,Razz,stud,true,8,2
+9,Five Card Draw,draw,false,6,2
+10,2-7 Triple Draw,draw,false,6,2
+11,Mixed (HORSE),mixed,true,8,2

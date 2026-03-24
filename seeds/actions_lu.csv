@@ -1,0 +1,14 @@
+action_id,action_type
+1,fold
+2,check
+3,call
+4,bet
+5,raise
+6,all_in
+7,post_blind
+8,post_ante
+9,post_straddle
+10,bring_in
+11,complete
+12,muck
+13,show

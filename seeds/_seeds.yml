@@ -1,0 +1,144 @@
+version: 2
+
+seeds:
+  - name: registry_status_lu
+    description: "Valid registry status values for Broadcasts and Clips."
+    config:
+      column_types:
+        registry_status_id: INT64
+        registry_status_type: STRING
+
+  - name: games_lu
+    description: "Supported poker game variants."
+    config:
+      column_types:
+        game_variant_id: INT64
+        game_variant_name: STRING
+        game_variant_format: STRING
+        is_limit: BOOL
+        max_seats: INT64
+        min_seats: INT64
+
+  - name: streets_lu
+    description: "Poker streets (betting rounds) per game type."
+    config:
+      column_types:
+        street_id: INT64
+        street_name: STRING
+
+  - name: actions_lu
+    description: "All valid player action types."
+    config:
+      column_types:
+        action_id: INT64
+        action_type: STRING
+
+  - name: sizings_lu
+    description: "Bet sizing categories. bet_sizing_percentages stored as JSON array string."
+    config:
+      column_types:
+        bet_sizing_id: INT64
+        bet_sizing_type: STRING
+        bet_sizing_percentages: STRING
+
+  - name: limits_lu
+    description: "Betting limit structures."
+    config:
+      column_types:
+        limit_id: INT64
+        limit_type: STRING
+
+  - name: modes_lu
+    description: "Game mode configurations including straddle and bounty rules. max_straddles stored as STRING (enum)."
+    config:
+      column_types:
+        modes_id: INT64
+        straddle_type: STRING
+        max_straddles: STRING
+        straddle_amount_multiplier: INT64
+        is_straddle_on: BOOL
+        is_bounty_on: BOOL
+        max_players: INT64
+        is_multiple_straddle: BOOL
+
+  - name: positions_lu
+    description: "All valid seat positions across game formats."
+    config:
+      column_types:
+        position_id: INT64
+        position_name: STRING
+        position_label: STRING
+        position_type: STRING
+
+  - name: states_lu
+    description: "State change types for street and player state machines."
+    config:
+      column_types:
+        states_id: INT64
+        state_change_type: STRING
+
+  - name: player_status_lu
+    description: "Valid player status values within a hand. status_type is an enum stored as STRING."
+    config:
+      column_types:
+        player_status_id: INT64
+        status_type: STRING
+
+  - name: nodes_lu
+    description: "Game tree node labels used in range profiles."
+    config:
+      column_types:
+        node_id: INT64
+        node_name: STRING
+
+  - name: connectedness_lu
+    description: "Card connectedness classifications."
+    config:
+      column_types:
+        connectedness_id: INT64
+        connectedness_type: STRING
+        connectedness_name: STRING
+
+  - name: suitedness_lu
+    description: "Card suitedness classifications."
+    config:
+      column_types:
+        suitedness_id: INT64
+        suitedness_type: STRING
+        suitedness_name: STRING
+
+  - name: paired_lu
+    description: "Card pairing classifications."
+    config:
+      column_types:
+        paired_id: INT64
+        paired_type: STRING
+        paired_name: STRING
+
+  - name: players_lu
+    description: "Known players with archetype tags."
+    config:
+      column_types:
+        player_id: INT64
+        player_name: STRING
+        archetype: STRING
+
+  - name: classes_lu
+    description: "Hand classification combining connectedness, suitedness, and pairing."
+    config:
+      column_types:
+        class_id: INT64
+        connectedness_id: INT64
+        suitedness_id: INT64
+        paired_id: INT64
+        scope: STRING
+
+  - name: formations_lu
+    description: "Positional formations for range profile contexts. defender_position_ids stored as JSON array string."
+    config:
+      column_types:
+        formation_id: INT64
+        defender_position_ids: STRING
+        aggressor_position_id: INT64
+        formation_type: STRING
+        is_multiway: BOOL

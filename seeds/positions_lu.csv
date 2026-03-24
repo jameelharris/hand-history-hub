@@ -1,0 +1,16 @@
+position_id,position_name,position_label,position_type
+1,small_blind,SB,blind
+2,big_blind,BB,blind
+3,under_the_gun,UTG,early
+4,under_the_gun_plus_one,UTG+1,early
+5,under_the_gun_plus_two,UTG+2,early
+6,lojack,LJ,middle
+7,hijack,HJ,middle
+8,cutoff,CO,late
+9,button,BTN,late
+10,heads_up_button,BTN/SB,heads_up
+11,heads_up_big_blind,BB,heads_up
+12,straddle,STR,straddle
+13,double_straddle,DSTR,straddle
+14,bring_in,BI,stud
+15,first_to_act_stud,FTA,stud

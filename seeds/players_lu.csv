@@ -1,0 +1,9 @@
+player_id,player_name,archetype
+1,unknown,unknown
+2,recreational,fish
+3,regular,reg
+4,aggressive_regular,lag
+5,tight_aggressive,tag
+6,calling_station,calling_station
+7,nit,nit
+8,maniac,maniac

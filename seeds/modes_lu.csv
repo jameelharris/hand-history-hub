@@ -1,0 +1,10 @@
+modes_id,straddle_type,max_straddles,straddle_amount_multiplier,is_straddle_on,is_bounty_on,max_players,is_multiple_straddle
+1,none,0,1,false,false,9,false
+2,utg_straddle,1,2,true,false,9,false
+3,button_straddle,1,2,true,false,9,false
+4,mississippi_straddle,1,2,true,false,9,false
+5,multi_straddle,3,2,true,false,9,true
+6,bounty,0,1,false,true,9,false
+7,straddle_bounty,1,2,true,true,9,false
+8,short_deck_standard,0,1,false,false,6,false
+9,heads_up_standard,0,1,false,false,2,false

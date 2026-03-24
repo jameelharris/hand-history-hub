@@ -1,0 +1,7 @@
+connectedness_id,connectedness_type,connectedness_name
+1,connected,Connected (0-gap)
+2,one_gap,One-Gapper
+3,two_gap,Two-Gapper
+4,disconnected,Three or More Gaps
+5,ace_high,Ace-High Connector
+6,broadway,Broadway Connector

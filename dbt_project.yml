@@ -1,0 +1,25 @@
+name: 'hand_history_hub'
+version: '1.0.0'
+config-version: 2
+
+profile: 'hand_history_hub'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  hand_history_hub:
+    +schema: hand_history
+    +quote_columns: false
+
+models:
+  hand_history_hub:
+    +schema: hand_history

@@ -1,0 +1,9 @@
+paired_id,paired_type,paired_name
+1,unpaired,Unpaired
+2,pocket_pair,Pocket Pair
+3,paired,Paired Board
+4,two_pair,Two Pair
+5,trips,Trips
+6,quads,Quads
+7,full_house,Full House
+8,set,Set (pocket pair + board pair)

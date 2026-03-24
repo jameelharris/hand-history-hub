@@ -1,0 +1,7 @@
+registry_status_id,registry_status_type
+1,pending
+2,processing
+3,active
+4,completed
+5,archived
+6,failed

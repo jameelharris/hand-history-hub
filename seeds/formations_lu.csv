@@ -1,0 +1,13 @@
+formation_id,defender_position_ids,aggressor_position_id,formation_type,is_multiway
+1,"[2]",9,btn_vs_bb,false
+2,"[1]",9,btn_vs_sb,false
+3,"[2]",8,co_vs_bb,false
+4,"[2]",7,hj_vs_bb,false
+5,"[2]",6,lj_vs_bb,false
+6,"[2]",3,utg_vs_bb,false
+7,"[1, 2]",9,btn_vs_blinds,true
+8,"[9]",1,sb_3bet_vs_btn,false
+9,"[9]",2,bb_3bet_vs_btn,false
+10,"[9, 2]",8,co_vs_btn_bb,true
+11,"[9, 2]",3,utg_vs_btn_bb,true
+12,"[11]",10,hu_ip_vs_oop,false

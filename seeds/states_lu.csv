@@ -1,0 +1,12 @@
+states_id,state_change_type
+1,active
+2,folded
+3,all_in
+4,sitting_out
+5,waiting_for_bb
+6,busted
+7,showdown
+8,muck
+9,run_it_twice_accepted
+10,run_it_twice_declined
+11,hand_complete

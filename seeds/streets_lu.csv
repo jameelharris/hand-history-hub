@@ -1,0 +1,13 @@
+street_id,street_name
+1,preflop
+2,flop
+3,turn
+4,river
+5,third_street
+6,fourth_street
+7,fifth_street
+8,sixth_street
+9,seventh_street
+10,first_draw
+11,second_draw
+12,third_draw

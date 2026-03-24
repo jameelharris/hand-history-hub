@@ -1,0 +1,6 @@
+limit_id,limit_type
+1,no_limit
+2,pot_limit
+3,fixed_limit
+4,spread_limit
+5,cap_no_limit

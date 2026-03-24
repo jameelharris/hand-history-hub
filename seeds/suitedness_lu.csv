@@ -1,0 +1,6 @@
+suitedness_id,suitedness_type,suitedness_name
+1,suited,Suited
+2,offsuit,Offsuit
+3,monotone,Monotone (3+ same suit)
+4,two_tone,Two-Tone (2 suits)
+5,rainbow,Rainbow (3 suits)

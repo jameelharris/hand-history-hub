@@ -1,0 +1,7 @@
+player_status_id,status_type
+1,active
+2,folded
+3,all_in
+4,sitting_out
+5,busted
+6,eliminated

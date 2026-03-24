@@ -17,9 +17,9 @@ clean-targets:
 
 seeds:
   hand_history_hub:
-    +schema: hand_history
+    +schema: hand_history_dev
     +quote_columns: false
 
 models:
   hand_history_hub:
-    +schema: hand_history
+    +schema: hand_history_dev
